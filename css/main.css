@@ -132,9 +132,14 @@ body {
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
 }
 
-.service-card {}
+.service-card {
+    flex: 1 2 0;
+    min-width: 315px;
+}
 
 .service-card-img {
     margin-bottom: 30px;
@@ -228,5 +233,5 @@ body {
 }
 
 .contacts-footer {
-    color: #828282; 
+    color: #828282;
 }

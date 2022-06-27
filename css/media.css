@@ -68,4 +68,9 @@
     .header-heading span {
         font-size: 28px;
     }
+
+    .services {
+        padding: 60px 0;
+        text-align: center;
+    }
 }

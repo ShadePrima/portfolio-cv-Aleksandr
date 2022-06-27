@@ -14,7 +14,8 @@
         <!-- header nav -->
         <div class="header-nav">
           <a href="#!" class="logo">Aleksandr</a>
-          <nav class="nav">
+
+          <nav id="nav" class="nav">
             <ul class="nav-list">
               <li class="nav-item">
                 <a href="#!" class="nav-link active">Home</a>
@@ -28,6 +29,13 @@
                 <a href="#!" class="nav-link">Contact</a>
               </li>
             </ul>
+            <button id="nav-btn" class="nav-button">
+              <img
+                id="nav-btn-img"
+                src="./img/icons/nav-open.svg"
+                alt="Nav button"
+              />
+            </button>
           </nav>
         </div>
         <!-- header content -->
@@ -35,7 +43,7 @@
           <div class="header-content">
             <h1 class="header-heading">
               Aleksandr Aniskevych <br />
-              Junior Frontend (React) Developer
+              <span>Junior Frontend (React) Developer</span>
             </h1>
             <p>
               Competitive and proactive junior front end developer with strong
@@ -45,7 +53,13 @@
             </p>
           </div>
           <div class="header-img">
-            <img src="./img/header/Aleksandr-black.png" alt="Aleksandr" />
+            <picture>
+              <sourse
+                media="(max-width: 799px)"
+                srcset="./img/header/Aleksandr-black mobile.png"
+              />
+              <img src="./img/header/Aleksandr-black.png" alt="Aleksandr" />
+            </picture>
           </div>
         </div>
       </div>
@@ -151,8 +165,10 @@
         </div>
 
         <div class="contacts-content">
-          <p>Want to know more or just chat? <br>
-            You are welcome!</p>
+          <p>
+            Want to know more or just chat? <br />
+            You are welcome!
+          </p>
         </div>
 
         <div class="contacts-button">
@@ -160,11 +176,16 @@
         </div>
 
         <div class="contacts-social">
-          <a href="#!"><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"></a>
+          <a href="#!"
+            ><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"
+          /></a>
         </div>
 
         <div class="contacts-footer">
-          <p>Like me on <br> LinkedIn</p>
+          <p>
+            Like me on <br />
+            LinkedIn
+          </p>
         </div>
       </div>
     </footer>

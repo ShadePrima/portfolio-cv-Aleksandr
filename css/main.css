@@ -78,7 +78,6 @@ body {
 
 /* nav */
 
-.nav {}
 
 .nav-list {
     display: flex;
@@ -87,7 +86,9 @@ body {
     font-size: 14px;
 }
 
-.nav-item {}
+.nav-button {
+    display: none;
+}
 
 .nav-link {
     color: #000;

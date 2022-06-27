@@ -10,4 +10,10 @@ navBtn.onclick = () => {
     } else {
         navBtnImg.src = "./img/icons/nav-open.svg"
     }
-} 
+}
+
+
+AOS.init({
+    // disabled: 'mobile',
+    once: true
+});

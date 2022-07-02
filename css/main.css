@@ -55,6 +55,11 @@ body {
     margin-bottom: 76px;
 }
 
+.header-description {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .logo {
     position: relative;
     padding: 0 12px 3px 0;

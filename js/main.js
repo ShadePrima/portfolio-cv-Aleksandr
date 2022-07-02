@@ -13,6 +13,8 @@ navBtn.onclick = () => {
 }
 
 
+
+
 AOS.init({
     // disabled: 'mobile',
     once: true

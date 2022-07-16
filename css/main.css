@@ -1,242 +1,254 @@
 @import "./reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #000;
-    font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  font-size: 14px;
 }
 
 .container {
-    max-width: 1230px;
-    padding: 0 30px;
-    margin: 0 auto;
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 .title-1 {
-    font-size: 34px;
-    font-weight: 600;
+  font-size: 34px;
+  font-weight: 600;
 }
 
 .button {
-    display: inline-block;
-    padding: 7px 22px;
-    background-color: #070707;
-    border-radius: 30px;
+  display: inline-block;
+  padding: 7px 22px;
+  background-color: #070707;
+  border-radius: 30px;
 
-    font-size: 18px;
-    color: #fff;
+  font-size: 18px;
+  color: #fff;
 
-    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
 }
 
 .button:hover,
 .button:focus {
-    background-color: #333333;
+  background-color: #333333;
 }
 
 .button:active {
-    position: relative;
-    top: 1px;
-    background-color: #000;
+  position: relative;
+  top: 1px;
+  background-color: #000;
 }
 
 /* header */
 
 .header {
-    background-color: #F1F1F1;
-    padding-top: 46px;
+  background-color: #f1f1f1;
+  padding-top: 46px;
 }
 
 .header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
 }
 
 .header-description {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .logo {
-    position: relative;
-    padding: 0 12px 3px 0;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1;
-    color: #000;
+  position: relative;
+  padding: 0 12px 3px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: #000;
 }
 
 .logo::after {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    content: "";
-    display: block;
-    width: 8px;
-    height: 8px;
-    background-color: #FDA300;
-    border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #fda300;
+  border-radius: 50%;
 }
 
 /* nav */
 
-
 .nav-list {
-    display: flex;
-    column-gap: 50px;
-    font-weight: 500;
-    font-size: 14px;
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .nav-button {
-    display: none;
+  display: none;
 }
 
 .nav-link {
-    color: #000;
+  color: #000;
 }
 
 .nav-link.active {
-    color: #606060;
+  color: #606060;
 }
 
 /* header-content */
 
 .header-row {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
 }
 
 .header-heading {
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 44px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 44px;
 }
 
 .header-content {
-    margin-top: 124px;
-    max-width: 500px;
+  margin-top: 124px;
+  max-width: 500px;
 }
 
 .header-content p {
-    line-height: 2;
+  line-height: 2;
 }
 
-.header-img {}
+.header-img {
+}
 
 /* services */
 .services {
-    padding: 90px 0;
+  padding: 90px 0;
 }
 
 .services-row {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
-    row-gap: 60px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 60px;
+  flex-wrap: wrap;
 }
 
 .service-card {
-    flex: 1 2 0;
-    min-width: 315px;
+  flex: 1 2 0;
+  min-width: 315px;
 }
 
 .service-card-img {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .service-card-title {
-    margin-bottom: 10px;
-    font-weight: 600;
-    font-size: 24px;
-    text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 .service-card p {
-    line-height: 2;
+  line-height: 2;
 }
 
 /* portfolio */
 
 .portfolio {
-    padding: 90px 0;
-    background-color: #F1F1F1;
+  padding: 90px 0;
+  background-color: #f1f1f1;
 }
 
 .portfolio-title {
-    text-align: center;
-    margin-bottom: 70px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+@media (max-width: 950px) {
+  .portfolio-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolio-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .project {
-    text-align: center;
+  text-align: center;
 }
 
-.project+.project {
-    margin-top: 90px;
-}
+/* .project + .project {
+  margin-top: 90px;
+} */
 
 .project-img {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .project-title {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .project-title a {
-    color: #000;
-    text-decoration: underline;
+  color: #000;
+  text-decoration: underline;
 }
 
 /* footer */
 
 .contacts {
-    padding: 90px 0;
-    text-align: center;
+  padding: 90px 0;
+  text-align: center;
 }
 
 .contacts-title {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
-
-
 
 .contacts-content {
-    max-width: 480px;
-    margin: 0 auto 40px;
-    font-size: 18px;
-    font-weight: 400;
-
+  max-width: 480px;
+  margin: 0 auto 40px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-
-
-.contacts-content p+p {
-    margin-top: 1em;
+.contacts-content p + p {
+  margin-top: 1em;
 }
-
 
 .contacts-button {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
-
-
 .contacts-social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 60px;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+  margin-bottom: 40px;
 }
 
 .contacts-footer {
-    color: #828282;
+  color: #828282;
 }
